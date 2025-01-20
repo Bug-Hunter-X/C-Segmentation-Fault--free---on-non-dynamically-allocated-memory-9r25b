@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; printf("%d\n", x); // Output: 20 // No need to free ptr because it points to stack memory return 0; }
